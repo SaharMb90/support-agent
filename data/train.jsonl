@@ -1,0 +1,160 @@
+{"text": "Where is my order?", "intent": "order_status"}
+{"text": "Can you track order 10234 for me?", "intent": "order_status"}
+{"text": "My package hasn't arrived yet", "intent": "order_status"}
+{"text": "When will my order be delivered?", "intent": "order_status"}
+{"text": "What's the status of order #10567?", "intent": "order_status"}
+{"text": "Has my order shipped?", "intent": "order_status"}
+{"text": "I ordered last week and still nothing", "intent": "order_status"}
+{"text": "Is order 10891 on the way?", "intent": "order_status"}
+{"text": "tracking info for my delivery please", "intent": "order_status"}
+{"text": "how long until my parcel arrives", "intent": "order_status"}
+{"text": "سفارشم کجاست؟", "intent": "order_status"}
+{"text": "وضعیت سفارش ۱۰۲۳۴ رو بگید", "intent": "order_status"}
+{"text": "بسته‌ام هنوز نرسیده", "intent": "order_status"}
+{"text": "سفارشم کی می‌رسه؟", "intent": "order_status"}
+{"text": "سفارش شماره ۱۰۵۶۷ ارسال شده؟", "intent": "order_status"}
+{"text": "کد رهگیری سفارشم رو می‌خوام", "intent": "order_status"}
+{"text": "هفته پیش سفارش دادم هنوز خبری نیست", "intent": "order_status"}
+{"text": "سفارش من در چه مرحله‌ایه؟", "intent": "order_status"}
+{"text": "مرسوله من کی تحویل داده میشه", "intent": "order_status"}
+{"text": "پیگیری سفارش", "intent": "order_status"}
+{"text": "I want a refund", "intent": "refund_request"}
+{"text": "Can I get my money back for order 10234?", "intent": "refund_request"}
+{"text": "The item is broken, I want to return it", "intent": "refund_request"}
+{"text": "How do I return a product?", "intent": "refund_request"}
+{"text": "Please refund my last purchase", "intent": "refund_request"}
+{"text": "I received the wrong item and want a refund", "intent": "refund_request"}
+{"text": "return request for order 10567", "intent": "refund_request"}
+{"text": "the product is damaged, money back please", "intent": "refund_request"}
+{"text": "I'd like to send this back", "intent": "refund_request"}
+{"text": "refund for a defective item", "intent": "refund_request"}
+{"text": "می‌خوام پولم رو پس بگیرم", "intent": "refund_request"}
+{"text": "کالا خراب رسیده می‌خوام مرجوع کنم", "intent": "refund_request"}
+{"text": "چطوری کالا رو برگردونم؟", "intent": "refund_request"}
+{"text": "لطفا هزینه سفارش ۱۰۲۳۴ رو برگردونید", "intent": "refund_request"}
+{"text": "کالای اشتباه برام فرستادید پولم رو می‌خوام", "intent": "refund_request"}
+{"text": "درخواست مرجوعی دارم", "intent": "refund_request"}
+{"text": "محصول آسیب دیده بود", "intent": "refund_request"}
+{"text": "استرداد وجه سفارشم", "intent": "refund_request"}
+{"text": "می‌خوام این رو پس بفرستم", "intent": "refund_request"}
+{"text": "بازگشت کالا", "intent": "refund_request"}
+{"text": "I was charged twice", "intent": "billing_issue"}
+{"text": "Why is there an extra charge on my card?", "intent": "billing_issue"}
+{"text": "My invoice is wrong", "intent": "billing_issue"}
+{"text": "payment failed but money was taken", "intent": "billing_issue"}
+{"text": "I need a copy of my invoice", "intent": "billing_issue"}
+{"text": "the price I paid is different from the website", "intent": "billing_issue"}
+{"text": "double charge on my account", "intent": "billing_issue"}
+{"text": "can you explain this charge", "intent": "billing_issue"}
+{"text": "billing problem with my last payment", "intent": "billing_issue"}
+{"text": "I paid but the order says unpaid", "intent": "billing_issue"}
+{"text": "دو بار از حسابم پول کم شده", "intent": "billing_issue"}
+{"text": "این مبلغ اضافه برای چیه؟", "intent": "billing_issue"}
+{"text": "فاکتورم اشتباهه", "intent": "billing_issue"}
+{"text": "پرداخت ناموفق بود ولی پول کسر شد", "intent": "billing_issue"}
+{"text": "یه نسخه از فاکتور می‌خوام", "intent": "billing_issue"}
+{"text": "مبلغی که پرداختم با قیمت سایت فرق داره", "intent": "billing_issue"}
+{"text": "مشکل پرداخت دارم", "intent": "billing_issue"}
+{"text": "پول دادم ولی سفارش پرداخت نشده نشون میده", "intent": "billing_issue"}
+{"text": "کسر وجه اضافه", "intent": "billing_issue"}
+{"text": "صورتحساب", "intent": "billing_issue"}
+{"text": "I can't log in to my account", "intent": "technical_problem"}
+{"text": "The app keeps crashing", "intent": "technical_problem"}
+{"text": "Password reset email never arrives", "intent": "technical_problem"}
+{"text": "the website shows an error at checkout", "intent": "technical_problem"}
+{"text": "I can't add items to my cart", "intent": "technical_problem"}
+{"text": "the page won't load", "intent": "technical_problem"}
+{"text": "my account is locked", "intent": "technical_problem"}
+{"text": "verification code not received", "intent": "technical_problem"}
+{"text": "the app is very slow", "intent": "technical_problem"}
+{"text": "error 500 when I pay", "intent": "technical_problem"}
+{"text": "نمی‌تونم وارد حسابم بشم", "intent": "technical_problem"}
+{"text": "اپلیکیشن مدام بسته میشه", "intent": "technical_problem"}
+{"text": "ایمیل بازیابی رمز نمیاد", "intent": "technical_problem"}
+{"text": "موقع پرداخت سایت خطا میده", "intent": "technical_problem"}
+{"text": "نمی‌تونم کالا به سبد اضافه کنم", "intent": "technical_problem"}
+{"text": "صفحه باز نمیشه", "intent": "technical_problem"}
+{"text": "حسابم قفل شده", "intent": "technical_problem"}
+{"text": "کد تایید برام نیومد", "intent": "technical_problem"}
+{"text": "برنامه خیلی کنده", "intent": "technical_problem"}
+{"text": "خطای ۵۰۰ موقع پرداخت", "intent": "technical_problem"}
+{"text": "I need to change my delivery address", "intent": "change_address"}
+{"text": "Can I update the shipping address for order 10234?", "intent": "change_address"}
+{"text": "wrong address on my order", "intent": "change_address"}
+{"text": "please deliver to a different address", "intent": "change_address"}
+{"text": "I moved, update my address", "intent": "change_address"}
+{"text": "change address for my order", "intent": "change_address"}
+{"text": "can you send it to my office instead", "intent": "change_address"}
+{"text": "fix the address on order 10891", "intent": "change_address"}
+{"text": "the postcode on my order is wrong", "intent": "change_address"}
+{"text": "update delivery location", "intent": "change_address"}
+{"text": "می‌خوام آدرس تحویل رو عوض کنم", "intent": "change_address"}
+{"text": "آدرس سفارش ۱۰۲۳۴ رو تغییر بدید", "intent": "change_address"}
+{"text": "آدرس سفارشم اشتباهه", "intent": "change_address"}
+{"text": "لطفا به یه آدرس دیگه بفرستید", "intent": "change_address"}
+{"text": "اسباب‌کشی کردم آدرسم رو به‌روز کنید", "intent": "change_address"}
+{"text": "تغییر آدرس سفارش", "intent": "change_address"}
+{"text": "به جای خونه بفرستید محل کارم", "intent": "change_address"}
+{"text": "آدرس سفارش ۱۰۸۹۱ رو درست کنید", "intent": "change_address"}
+{"text": "کد پستی سفارشم غلطه", "intent": "change_address"}
+{"text": "ویرایش آدرس ارسال", "intent": "change_address"}
+{"text": "Cancel my order", "intent": "cancel_order"}
+{"text": "I want to cancel order 10234", "intent": "cancel_order"}
+{"text": "please stop my order before it ships", "intent": "cancel_order"}
+{"text": "I changed my mind, cancel it", "intent": "cancel_order"}
+{"text": "how do I cancel an order", "intent": "cancel_order"}
+{"text": "cancel the order I just placed", "intent": "cancel_order"}
+{"text": "don't send order 10567", "intent": "cancel_order"}
+{"text": "I ordered by mistake, cancel please", "intent": "cancel_order"}
+{"text": "cancellation request", "intent": "cancel_order"}
+{"text": "can I still cancel?", "intent": "cancel_order"}
+{"text": "سفارشم رو لغو کنید", "intent": "cancel_order"}
+{"text": "می‌خوام سفارش ۱۰۲۳۴ رو کنسل کنم", "intent": "cancel_order"}
+{"text": "قبل از ارسال سفارش رو متوقف کنید", "intent": "cancel_order"}
+{"text": "پشیمون شدم لغوش کنید", "intent": "cancel_order"}
+{"text": "چطوری سفارش رو لغو کنم", "intent": "cancel_order"}
+{"text": "سفارشی که الان دادم رو کنسل کنید", "intent": "cancel_order"}
+{"text": "سفارش ۱۰۵۶۷ رو نفرستید", "intent": "cancel_order"}
+{"text": "اشتباهی سفارش دادم لغو کنید", "intent": "cancel_order"}
+{"text": "درخواست لغو", "intent": "cancel_order"}
+{"text": "هنوز میشه کنسل کرد؟", "intent": "cancel_order"}
+{"text": "hi", "intent": "greeting"}
+{"text": "hello", "intent": "greeting"}
+{"text": "good morning", "intent": "greeting"}
+{"text": "hey there", "intent": "greeting"}
+{"text": "thanks!", "intent": "greeting"}
+{"text": "thank you so much", "intent": "greeting"}
+{"text": "hi, are you there?", "intent": "greeting"}
+{"text": "bye", "intent": "greeting"}
+{"text": "good evening", "intent": "greeting"}
+{"text": "thanks for your help", "intent": "greeting"}
+{"text": "سلام", "intent": "greeting"}
+{"text": "درود", "intent": "greeting"}
+{"text": "صبح بخیر", "intent": "greeting"}
+{"text": "سلام وقت بخیر", "intent": "greeting"}
+{"text": "ممنون", "intent": "greeting"}
+{"text": "خیلی ممنونم", "intent": "greeting"}
+{"text": "سلام کسی هست؟", "intent": "greeting"}
+{"text": "خداحافظ", "intent": "greeting"}
+{"text": "عصر بخیر", "intent": "greeting"}
+{"text": "مرسی از کمکتون", "intent": "greeting"}
+{"text": "I want to talk to a human", "intent": "human_agent"}
+{"text": "connect me to a real person", "intent": "human_agent"}
+{"text": "let me speak with an agent", "intent": "human_agent"}
+{"text": "this is useless, get me a manager", "intent": "human_agent"}
+{"text": "I want to file a formal complaint", "intent": "human_agent"}
+{"text": "can I call support?", "intent": "human_agent"}
+{"text": "I need a person not a bot", "intent": "human_agent"}
+{"text": "transfer me to customer service", "intent": "human_agent"}
+{"text": "escalate this please", "intent": "human_agent"}
+{"text": "I'm going to sue you", "intent": "human_agent"}
+{"text": "می‌خوام با یه آدم صحبت کنم", "intent": "human_agent"}
+{"text": "وصلم کنید به اپراتور", "intent": "human_agent"}
+{"text": "با پشتیبان انسانی کار دارم", "intent": "human_agent"}
+{"text": "این به درد نمی‌خوره مدیر رو می‌خوام", "intent": "human_agent"}
+{"text": "می‌خوام شکایت رسمی ثبت کنم", "intent": "human_agent"}
+{"text": "شماره تماس پشتیبانی رو بدید", "intent": "human_agent"}
+{"text": "ربات نمی‌خوام آدم می‌خوام", "intent": "human_agent"}
+{"text": "انتقالم بدید به کارشناس", "intent": "human_agent"}
+{"text": "لطفا پیگیری ویژه کنید", "intent": "human_agent"}
+{"text": "ازتون شکایت می‌کنم", "intent": "human_agent"}

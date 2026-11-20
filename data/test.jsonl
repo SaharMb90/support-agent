@@ -1,0 +1,30 @@
+{"text": "hey, where's my stuff? order 10234", "intent": "order_status", "route": "auto"}
+{"text": "Did order 10891 ship yet?", "intent": "order_status", "route": "auto"}
+{"text": "tracking for 10567 pls", "intent": "order_status", "route": "auto"}
+{"text": "سفارش ۱۰۸۹۱ کجاست", "intent": "order_status", "route": "auto"}
+{"text": "بسته من کی میرسه؟ سفارش ۱۰۵۶۷", "intent": "order_status", "route": "auto"}
+{"text": "my order 99999 hasn't come", "intent": "order_status", "route": "handoff"}
+{"text": "the blender arrived cracked, I want my money back, order 10234", "intent": "refund_request", "route": "auto"}
+{"text": "return order 10891 please", "intent": "refund_request", "route": "auto"}
+{"text": "کالای سفارش ۱۰۵۶۷ معیوب بود پولم رو برگردونید", "intent": "refund_request", "route": "auto"}
+{"text": "میخوام مرجوع کنم", "intent": "refund_request", "route": "auto"}
+{"text": "you took money from my card two times", "intent": "billing_issue", "route": "auto"}
+{"text": "there's a charge I don't recognize", "intent": "billing_issue", "route": "auto"}
+{"text": "دوبار پول ازم کم کردید", "intent": "billing_issue", "route": "auto"}
+{"text": "فاکتور سفارشم رو ندارم", "intent": "billing_issue", "route": "auto"}
+{"text": "login doesn't work", "intent": "technical_problem", "route": "auto"}
+{"text": "the checkout page gives me an error", "intent": "technical_problem", "route": "auto"}
+{"text": "رمزم رو فراموش کردم ایمیل نمیاد", "intent": "technical_problem", "route": "auto"}
+{"text": "اپ باز نمیشه", "intent": "technical_problem", "route": "auto"}
+{"text": "send order 10234 to a new address", "intent": "change_address", "route": "auto"}
+{"text": "my address is wrong on the order", "intent": "change_address", "route": "auto"}
+{"text": "آدرس رو عوض کنید برای سفارش ۱۰۸۹۱", "intent": "change_address", "route": "auto"}
+{"text": "please cancel 10567", "intent": "cancel_order", "route": "auto"}
+{"text": "I don't want the order anymore, cancel it", "intent": "cancel_order", "route": "auto"}
+{"text": "سفارش ۱۰۲۳۴ رو کنسل کنید لطفا", "intent": "cancel_order", "route": "auto"}
+{"text": "hello!", "intent": "greeting", "route": "auto"}
+{"text": "ممنون از راهنمایی", "intent": "greeting", "route": "auto"}
+{"text": "get me a real human now", "intent": "human_agent", "route": "handoff"}
+{"text": "I'm furious, this is the third time, I want a manager", "intent": "human_agent", "route": "handoff"}
+{"text": "با اپراتور وصلم کنید", "intent": "human_agent", "route": "handoff"}
+{"text": "میخوام شکایت کنم", "intent": "human_agent", "route": "handoff"}
