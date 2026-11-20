@@ -1,7 +1,9 @@
-"""Lightweight bilingual intent classifier (TF-IDF char + word n-grams, logistic regression).
+"""Lightweight bilingual intent classifier (TF-IDF character n-grams + logistic regression).
 
-Character n-grams make it robust to Persian spelling variants, typos and mixed
-Persian/English messages, and it predicts in well under a millisecond on CPU.
+Character n-grams are robust to Persian spelling variants, typos and mixed Persian/English
+messages, and predict in about a millisecond on CPU. Character-only features were chosen
+over character+word features because they scored higher in the research ablation
+(research/experiments.py, E1).
 """
 import json
 from pathlib import Path
@@ -21,8 +23,6 @@ def load_jsonl(path: str | Path) -> list[dict]:
 def build_pipeline() -> Pipeline:
     features = FeatureUnion([
         ("char", TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 5), sublinear_tf=True, preprocessor=normalize)),
-        ("word", TfidfVectorizer(analyzer="word", ngram_range=(1, 2), sublinear_tf=True, preprocessor=normalize,
-                                 token_pattern=r"(?u)\b\w+\b")),
     ])
     return Pipeline([("features", features), ("clf", LogisticRegression(C=20, max_iter=2000))])
 

@@ -3,14 +3,14 @@
 | Metric | Value |
 |---|---|
 | test_examples | 30 |
-| intent_accuracy | 0.967 |
+| intent_accuracy | 1.0 |
 | routing_accuracy | 1.0 |
-| intent_accuracy_by_language | {'en': 1.0, 'fa': 0.923} |
-| train_5fold_cv_accuracy | 0.606 |
-| latency_ms_p50 | 1.25 |
-| latency_ms_p95 | 1.36 |
+| intent_accuracy_by_language | {'en': 1.0, 'fa': 1.0} |
+| train_5fold_cv_accuracy | 0.675 |
+| latency_ms_p50 | 0.79 |
+| latency_ms_p95 | 0.91 |
 | llm_used | False |
 
 ## Errors
 
-- `فاکتور سفارشم رو ندارم` — expected billing_issue/auto, got order_status/auto (conf 0.334)
+None.
