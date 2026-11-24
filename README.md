@@ -1,6 +1,6 @@
 # Bilingual Customer-Support Agent (English / Persian)
 
-**Confidence-based human handoff in English and Persian: a working agent and a small fairness study**
+**Confidence-based human handoff in English and Persian: a working agent, a classifier study, and an LLM confidence study**
 
 A small, production-style support agent that reads customer chat messages in **English or Persian**,
 detects what the customer wants, **calls back-office tools** (order lookup, cancellation, ticketing),
@@ -79,10 +79,26 @@ full report: [`results/research/research_report.md`](results/research/research_r
    (16–19% vs 12.5%), as expected for surface features across two scripts.
 6. **Persian is more data-hungry.** The English–Persian gap stays at roughly 8–9 points along the learning curve.
 
+### E7 · Does the same hold for a large language model?
+
+[`research/llm_confidence.py`](research/llm_confidence.py) repeats the question with an LLM used zero-shot as the
+intent classifier, using two kinds of confidence: **verbalised** (the model states 0–100 next to its answer) and
+**consistency** (the share of k sampled answers that agree with the majority). For each language it reports
+accuracy, ECE, AURC and what the 0.30 handoff threshold means, next to the classifier above. Unusable replies
+count as wrong with confidence 0, and every response is cached so reruns are free.
+
+```bash
+export LLM_API_KEY=... LLM_BASE_URL=https://api.openai.com/v1 LLM_MODEL=gpt-4o-mini
+python research/llm_confidence.py --samples 5     # -> results/research/llm_report.md
+python research/llm_confidence.py --mock          # offline pipeline check, fake answers
+```
+
+Results for E7 are not included yet: they will be added once the study has been run on a real model.
+
 **Limitations.** Small, author-written dataset; one model family; no real customer traffic. The results are
 a pilot that motivates the questions below rather than a general claim.
 
-**Next steps.** Repeat the study with multilingual sentence embeddings and LLM-based classifiers, add
+**Next steps.** Run E7 on several LLMs, repeat the study with multilingual sentence embeddings, add
 post-hoc calibration (temperature scaling) per language, and compare verbalised LLM confidence with
 token-level probabilities. This connects to my broader interest in how reliable model uncertainty is in
 lower-resource languages such as Persian, and in designing human-in-the-loop systems that stay fair when
@@ -95,7 +111,7 @@ pip install -r requirements.txt
 python data/build_data.py        # regenerate dataset (already included)
 python eval.py                   # engineering metrics -> results/
 python research/experiments.py   # research study (~20 s) -> results/research/
-pytest -q                        # 6 tests
+pytest -q                        # 12 tests
 uvicorn app:app --reload         # chat UI at http://127.0.0.1:8000
 # optional LLM:
 export LLM_API_KEY=... LLM_BASE_URL=https://api.openai.com/v1 LLM_MODEL=gpt-4o-mini
@@ -126,7 +142,7 @@ agent/
   router.py      the agent: classify -> route -> tools -> reply, with latency
 app.py           FastAPI service + chat UI (static/index.html)
 eval.py          engineering evaluation
-research/        research experiments (ablation, calibration, selective handoff, transfer, learning curve)
+research/        research experiments (ablation, calibration, selective handoff, transfer, learning curve, LLM confidence)
 tests/           pytest suite
 ```
 
