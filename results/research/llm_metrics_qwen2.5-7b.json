@@ -1,0 +1,61 @@
+{
+  "model": "qwen2.5:7b",
+  "mock": false,
+  "threshold": 0.3,
+  "verbalised": {
+    "en": {
+      "n": 97,
+      "invalid_replies": 0,
+      "accuracy": 0.9690721649484536,
+      "mean_confidence": 0.9134020618556701,
+      "ece": 0.0783505154639175,
+      "squared_error": 0.030927835051546393,
+      "aurc": 0.003448885031171078,
+      "coverage@0.3": 1.0,
+      "auto_error@0.3": 0.030927835051546393,
+      "threshold_for_target": 0.5,
+      "coverage_for_target": 1.0
+    },
+    "fa": {
+      "n": 93,
+      "invalid_replies": 0,
+      "accuracy": 0.8279569892473119,
+      "mean_confidence": 0.9290322580645161,
+      "ece": 0.10107526881720431,
+      "squared_error": 0.1189247311827957,
+      "aurc": 0.03785278025703658,
+      "coverage@0.3": 1.0,
+      "auto_error@0.3": 0.17204301075268813,
+      "threshold_for_target": 0.95,
+      "coverage_for_target": 0.6881720430107527
+    }
+  },
+  "consistency": {
+    "en": {
+      "n": 97,
+      "invalid_replies": 0,
+      "accuracy": 0.9690721649484536,
+      "mean_confidence": 0.9938144329896907,
+      "ece": 0.03298969072164944,
+      "squared_error": 0.0288659793814433,
+      "aurc": 0.0056346402575564915,
+      "coverage@0.3": 1.0,
+      "auto_error@0.3": 0.030927835051546393,
+      "threshold_for_target": 0.6,
+      "coverage_for_target": 1.0
+    },
+    "fa": {
+      "n": 93,
+      "invalid_replies": 0,
+      "accuracy": 0.8387096774193549,
+      "mean_confidence": 0.9913978494623656,
+      "ece": 0.1526881720430108,
+      "squared_error": 0.15096774193548387,
+      "aurc": 0.08939131068722563,
+      "coverage@0.3": 1.0,
+      "auto_error@0.3": 0.16129032258064513,
+      "threshold_for_target": null,
+      "coverage_for_target": 0.0
+    }
+  }
+}
